@@ -115,6 +115,9 @@ a:hover{
 .contactlist{
     margin-top: 70px;
 }
+.contactlist li{
+    margin-bottom: 16px;
+}
 .hours{
     padding-top: 15px;
 }
