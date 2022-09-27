@@ -1,0 +1,117 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box; 
+}
+header{
+    display: flex;
+    justify-content:space-between;
+    box-shadow: 3px 3px 2px rgba(94, 13, 13, 0.5);
+    padding: 2px;
+}
+header a {
+    color: #fff;
+    text-decoration: none;
+    height: 30px;  
+    line-height: 30px;
+    display: inline-block;
+}
+header.link{
+    color: cadetblue;
+    
+}
+header .socio svg {
+    fill: rgb(61, 34, 34); 
+    height: 30px;   
+}
+header nav ul{
+    display: flex;
+    padding-top: 20px;
+}        
+header nav a{
+    padding: 0 10px;
+    color:white;
+    font-size:1.2em;
+}
+header nav a:hover{
+    color:yellow
+}
+ul{
+    list-style-type: none;
+}
+.logo{
+    color:#fff;
+}
+.bespoke{
+    font-size: 1.5em;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 20px;
+}
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(../images/item8.jpg);
+    font-family: lato, sans-serif;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.who{
+    text-align: center;
+    color:rgb(255, 255, 0);
+    font-size: 2rem;
+    padding-top: 200px;
+}    
+main{
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    margin-top: 200px;
+}
+.container{
+    width: 1100px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.box{
+    position: relative;
+    width: 320px;
+    background:whitesmoke;
+    padding: 100px 40px 60px;
+    box-shadow: 0 15px  45px rgba(0,0,0,.1);
+    border-radius: 60px;
+    height: 400px;
+}
+.box h2{
+    position: absolute;
+    left: 2PX;
+    top: 88px;
+    font-size: 6em;
+    z-index: 1;
+    opacity: 0.6;
+    transition: 0.5s;
+}
+.box h3{
+    position: relative;
+    padding-top: 30px;
+    font-size: 3em;
+    font-weight: bold;
+    z-index: 2;
+    color:black;
+}
+.box p{
+    position: relative;
+    z-index: 2;
+    color:black;
+    padding-top: 20px;
+    font-size: 20px;
+}
+footer{
+    text-align: center;
+    padding: 3px;
+    color: white;
+    background-color:rgb(75, 31, 15);
+    height: 50px;
+    margin-top: 80px;
+    padding-top: 15px;
+}
